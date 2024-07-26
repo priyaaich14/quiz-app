@@ -1,0 +1,571 @@
+[
+    {
+        "id": 1,
+        "question": "What is Node.js primarily used for in the MERN stack?",
+        "options": [
+            "Machine Learning",
+            "Server-side development",
+            "Database indexing",
+            "Native mobile apps"
+        ],
+        "correctAnswer": "Server-side development"
+    },
+    {
+        "id": 2,
+        "question": "Which library is used in the MERN stack for building user interfaces?",
+        "options": [
+            "jQuery",
+            "React",
+            "Vue.js",
+            "Angular"
+        ],
+        "correctAnswer": "React"
+    },
+    {
+        "id": 3,
+        "question": "What type of database is MongoDB?",
+        "options": [
+            "Graph-based",
+            "Relational",
+            "NoSQL",
+            "Spreadsheet"
+        ],
+        "correctAnswer": "NoSQL"
+    },
+    {
+        "id": 4,
+        "question": "Which framework is used in the MERN stack for handling server requests?",
+        "options": [
+            "Django",
+            "Flask",
+            "Express",
+            "Ruby on Rails"
+        ],
+        "correctAnswer": "Express"
+    },
+    {
+        "id": 5,
+        "question": "What does the 'R' in MERN stand for?",
+        "options": [
+            "Ruby",
+            "React",
+            "Rust",
+            "Rails"
+        ],
+        "correctAnswer": "React"
+    },
+    {
+        "id": 6,
+        "question": "What is MongoDB used for in the MERN stack?",
+        "options": [
+            "Caching data",
+            "Storing data",
+            "Queue management",
+            "Data analysis"
+        ],
+        "correctAnswer": "Storing data"
+    },
+    {
+        "id": 7,
+        "question": "Which feature of React helps in optimizing performance by minimizing real DOM manipulations?",
+        "options": [
+            "JSX",
+            "Virtual DOM",
+            "Props",
+            "State"
+        ],
+        "correctAnswer": "Virtual DOM"
+    },
+    {
+        "id": 8,
+        "question": "What is Express.js mainly used for?",
+        "options": [
+            "Styling websites",
+            "Database operations",
+            "Building web servers",
+            "Data visualization"
+        ],
+        "correctAnswer": "Building web servers"
+    },
+    {
+        "id": 9,
+        "question": "Which MERN stack component is a JavaScript runtime built on Chrome's V8 JavaScript engine?",
+        "options": [
+            "Node.js",
+            "Apache",
+            "Express.js",
+            "MongoDB"
+        ],
+        "correctAnswer": "Node.js"
+    },
+    {
+        "id": 10,
+        "question": "How does MongoDB store data?",
+        "options": [
+            "Tables",
+            "JSON-like documents",
+            "Blobs",
+            "Simple text files"
+        ],
+        "correctAnswer": "JSON-like documents"
+    },
+    {
+        "id": 11,
+        "question": "What helps React efficiently update the browser's DOM?",
+        "options": [
+            "HTTP Requests",
+            "Virtual DOM",
+            "The use of external libraries",
+            "Direct manipulation"
+        ],
+        "correctAnswer": "Virtual DOM"
+    },
+    {
+        "id": 12,
+        "question": "What is a common use case for Express.js middleware?",
+        "options": [
+            "Generating graphics",
+            "Handling requests and responses",
+            "Data encryption",
+            "Client-side routing"
+        ],
+        "correctAnswer": "Handling requests and responses"
+    },
+    {
+        "id": 13,
+        "question": "How can you manage state in a React application?",
+        "options": [
+            "Using state machines",
+            "With Redux or Context API",
+            "Through callbacks",
+            "Using servlets"
+        ],
+        "correctAnswer": "With Redux or Context API"
+    },
+    {
+        "id": 14,
+        "question": "Which of these is NOT a feature of Node.js?",
+        "options": [
+            "Multi-threading",
+            "Non-blocking I/O",
+            "Event-driven architecture",
+            "Built on V8 engine"
+        ],
+        "correctAnswer": "Multi-threading"
+    },
+    {
+        "id": 15,
+        "question": "What does MongoDB use to format and query data?",
+        "options": [
+            "SQL",
+            "XML",
+            "JSON",
+            "CSV"
+        ],
+        "correctAnswer": "JSON"
+    },
+    {
+        "id": 16,
+        "question": "What is the main benefit of using React in the MERN stack?",
+        "options": [
+            "It provides a backend framework",
+            "It supports relational databases",
+            "It simplifies data binding",
+            "It enables building dynamic user interfaces"
+        ],
+        "correctAnswer": "It enables building dynamic user interfaces"
+    },
+    {
+        "id": 17,
+        "question": "Which of these is a common task performed by Express middleware?",
+        "options": [
+            "Password hashing",
+            "Request logging",
+            "Data mining",
+            "Email sending"
+        ],
+        "correctAnswer": "Request logging"
+    },
+    {
+        "id": 18,
+        "question": "What feature of Node.js allows it to handle multiple operations at the same time?",
+        "options": [
+            "Multi-threading",
+            "Asynchronous programming",
+            "Promise chaining",
+            "Synchronous execution"
+        ],
+        "correctAnswer": "Asynchronous programming"
+    },
+    {
+        "id": 19,
+        "question": "Which concept is essential for understanding React components?",
+        "options": [
+            "Prototypes",
+            "Modules",
+            "Classes",
+            "Hooks"
+        ],
+        "correctAnswer": "Hooks"
+    },
+    {
+        "id": 20,
+        "question": "What type of structure does MongoDB use to store related data?",
+        "options": [
+            "Foreign keys",
+            "Collections",
+            "Clusters",
+            "Partitions"
+        ],
+        "correctAnswer": "Collections"
+    },
+    {
+        "id": 21,
+        "question": "Which tool can be used in the MERN stack for state management across multiple components?",
+        "options": [
+            "Redux",
+            "MongoDB",
+            "Webpack",
+            "Babel"
+        ],
+        "correctAnswer": "Redux"
+    },
+    {
+        "id": 22,
+        "question": "What does 'npm' stand for?",
+        "options": [
+            "Node package manager",
+            "Network protocol model",
+            "New programming module",
+            "Node protocol method"
+        ],
+        "correctAnswer": "Node package manager"
+    },
+    {
+        "id": 23,
+        "question": "How do you create a component in React?",
+        "options": [
+            "Define a class that extends React.Component",
+            "Declare a new HTML element",
+            "Use an external library",
+            "Write a function that returns an object"
+        ],
+        "correctAnswer": "Define a class that extends React.Component"
+    },
+    {
+        "id": 24,
+        "question": "Which of these is an advantage of using MongoDB in the MERN stack?",
+        "options": [
+            "Strong transaction handling",
+            "Schema flexibility",
+            "Native SQL support",
+            "Automatic multi-threading"
+        ],
+        "correctAnswer": "Schema flexibility"
+    },
+    {
+        "id": 25,
+        "question": "What does MERN stand for?",
+        "options": [
+            "MongoDB, Express, React, Node",
+            "MySQL, Ember, Ruby, Node",
+            "MariaDB, Express, React, .NET",
+            "MongoDB, Eclipse, Ruby, Node"
+        ],
+        "correctAnswer": "MongoDB, Express, React, Node"
+    },
+    {
+        "id": 26,
+        "question": "Which HTTP method is not typically used in RESTful APIs?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "CONNECT"
+        ],
+        "correctAnswer": "CONNECT"
+    },
+    {
+        "id": 27,
+        "question": "What allows React components to be reusable?",
+        "options": [
+            "Hooks",
+            "Props",
+            "Sessions",
+            "Cookies"
+        ],
+        "correctAnswer": "Props"
+    },
+    {
+        "id": 28,
+        "question": "What is the default port for a web application running on localhost in Node.js?",
+        "options": [
+            "8080",
+            "3000",
+            "80",
+            "443"
+        ],
+        "correctAnswer": "3000"
+    },
+    {
+        "id": 29,
+        "question": "Which tool in Node.js helps manage packages?",
+        "options": [
+            "Node Package Manager",
+            "Node Package Distributor",
+            "Node Setup Tool",
+            "Package Setup Manager"
+        ],
+        "correctAnswer": "Node Package Manager"
+    },
+    {
+        "id": 30,
+        "question": "Which term describes the React concept of maintaining a predictable state structure?",
+        "options": [
+            "State management",
+            "Lifecycle methods",
+            "Event handling",
+            "Data streaming"
+        ],
+        "correctAnswer": "State management"
+    },
+    {
+        "id": 31,
+        "question": "Which component in the MERN stack acts as a bridge between the frontend and the database?",
+        "options": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "correctAnswer": "Express"
+    },
+    {
+        "id": 32,
+        "question": "What does 'CRUD' stand for in web development?",
+        "options": [
+            "Create, Read, Update, Delete",
+            "Connect, Read, Upload, Disconnect",
+            "Create, Return, Update, Disable",
+            "Connect, Request, Update, Disconnect"
+        ],
+        "correctAnswer": "Create, Read, Update, Delete"
+    },
+    {
+        "id": 33,
+        "question": "What is the significance of using 'async/await' in Node.js?",
+        "options": [
+            "Improving database performance",
+            "Handling synchronous tasks",
+            "Managing asynchronous operations",
+            "Enhancing network speed"
+        ],
+        "correctAnswer": "Managing asynchronous operations"
+    },
+    {
+        "id": 34,
+        "question": "What pattern does React use to manage data flow?",
+        "options": [
+            "MVC",
+            "Observer",
+            "Singleton",
+            "Unidirectional"
+        ],
+        "correctAnswer": "Unidirectional"
+    },
+    {
+        "id": 35,
+        "question": "Which of these is a valid way to store session data in a MERN application?",
+        "options": [
+            "LocalStorage",
+            "Server-side database",
+            "Cookies",
+            "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+    },
+    {
+        "id": 36,
+        "question": "What does the 'useEffect' hook do in React?",
+        "options": [
+            "Handles state transitions",
+            "Manages component lifecycle events",
+            "Creates a new context",
+            "Directly manipulates the DOM"
+        ],
+        "correctAnswer": "Manages component lifecycle events"
+    },
+    {
+        "id": 37,
+        "question": "What makes MongoDB suitable for handling large data sets in MERN applications?",
+        "options": [
+            "SQL interface",
+            "Horizontal scalability",
+            "ACID transactions",
+            "Stored procedures"
+        ],
+        "correctAnswer": "Horizontal scalability"
+    },
+    {
+        "id": 38,
+        "question": "Which of these is not a typical feature of Node.js?",
+        "options": [
+            "Handling multiple requests at the same time",
+            "Native support for JSON",
+            "Built-in support for relational database management systems",
+            "Use of JavaScript on the server side"
+        ],
+        "correctAnswer": "Built-in support for relational database management systems"
+    },
+    {
+        "id": 39,
+        "question": "What is the main advantage of using JSX in React?",
+        "options": [
+            "Faster code execution",
+            "Direct manipulation of the browser DOM",
+            "Easier to write and understand",
+            "Support for type checking"
+        ],
+        "correctAnswer": "Easier to write and understand"
+    },
+    {
+        "id": 40,
+        "question": "What role does Express play in the MERN stack?",
+        "options": [
+            "Data visualization",
+            "API development",
+            "Package management",
+            "Client-side rendering"
+        ],
+        "correctAnswer": "API development"
+    },
+    {
+        "id": 41,
+        "question": "Which of the following is not a common feature of MongoDB?",
+        "options": [
+            "Join operations",
+            "Document-oriented storage",
+            "Ad-hoc query support",
+            "Full index support"
+        ],
+        "correctAnswer": "Join operations"
+    },
+    {
+        "id": 42,
+        "question": "What allows React to be so fast, despite the frequent data changes and UI updates?",
+        "options": [
+            "Using web workers",
+            "Reduced server load",
+            "Virtual DOM",
+            "Aggressive caching"
+        ],
+        "correctAnswer": "Virtual DOM"
+    },
+    {
+        "id": 43,
+        "question": "Which of these is essential for creating RESTful services using Express?",
+        "options": [
+            "SOAP protocol",
+            "CRUD operations",
+            "Multi-threading",
+            "Client-side routing"
+        ],
+        "correctAnswer": "CRUD operations"
+    },
+    {
+        "id": 44,
+        "question": "What is typically stored in a MongoDB collection?",
+        "options": [
+            "Functions",
+            "Files",
+            "Documents",
+            "Stylesheets"
+        ],
+        "correctAnswer": "Documents"
+    },
+    {
+        "id": 45,
+        "question": "What does it mean to have a single-page application in React?",
+        "options": [
+            "Only one page can be open at a time",
+            "The application does not require page reloading during use",
+            "It uses a single HTML page",
+            "Only one component can be rendered"
+        ],
+        "correctAnswer": "The application does not require page reloading during use"
+    },
+    {
+        "id": 46,
+        "question": "How does Node.js handle child processes?",
+        "options": [
+            "Using a pool of threads",
+            "Creating new instances of V8 engine",
+            "Spawning new processes",
+            "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+    },
+    {
+        "id": 47,
+        "question": "What is the main benefit of using middleware in Express?",
+        "options": [
+            "To process incoming requests before they reach routes",
+            "To enhance data security",
+            "To connect to different databases",
+            "To generate client-side views"
+        ],
+        "correctAnswer": "To process incoming requests before they reach routes"
+    },
+    {
+        "id": 48,
+        "question": "Which technique does MongoDB use to ensure data consistency across distributed environments?",
+        "options": [
+            "Sharding",
+            "Partitioning",
+            "Replication",
+            "Normalization"
+        ],
+        "correctAnswer": "Replication"
+    },
+    {
+        "id": 49,
+        "question": "What is a key feature of Express that aids in server-side routing?",
+        "options": [
+            "Dynamic URL routing",
+            "Static file serving",
+            "Middleware integration",
+            "Automatic HTTPS redirection"
+        ],
+        "correctAnswer": "Dynamic URL routing"
+    },
+    {
+        "id": 50,
+        "question": "What kind of storage engine does MongoDB use?",
+        "options": [
+            "InnoDB",
+            "WiredTiger",
+            "MyISAM",
+            "SQLite"
+        ],
+        "correctAnswer": "WiredTiger"
+    },
+    {
+        "id": 51,
+        "question": "Which library is used in the MERN stack for building user interfaces?",
+        "options": ["jQuery", "React", "Vue.js", "Angular"],
+        "correctAnswer": "React"
+    },
+    {
+        "id": 52,
+        "question": "Currency of South Korea",
+        "options": ["Won", "Rupee", "Taka", "Dollar"],
+        "correctAnswer": "Won"
+    },
+    {
+        "id": 53,
+        "question": " Which is the North Eastern states of India",
+        "options": ["Nagaland", "New Delhi", "Bengaluru", "chennai"],
+        "correctAnswer": "Rupee"
+    }
+    
+]

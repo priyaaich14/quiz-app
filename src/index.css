@@ -1,13 +1,231 @@
+/* General body styling */
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Specific styles for the login form container */
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  position: fixed;
+  top: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Styling for buttons */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for each user */
+.user-container {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Heading inside user container */
+.user-container h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* List styling */
+ul {
+  list-style: disc;
+  padding: 0;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Chart container styling */
+.chart-container {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+/* Error handling and feedback styling */
+.error {
+  color: red;
+}
+
+.back-home-container {
+  margin-top: 20px;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+/* Button styling for spacing */
+
+/* Additional specific class for bottom button for extra spacing if needed */
+.button-bottom {
+  margin-top: 10px;
+}
+
+/* Styling for navigation buttons in the quiz */
+.quiz-button {
+  margin: 0 10px;
+}
+
+/* Styling for the main button group at the top */
+.top-buttons {
+  margin-bottom: 20px;
+}
+
+.top-buttons button {
+  margin-right: 10px;
+}
+
+/* Styling for the question button group */
+.question-buttons button {
+  margin-right: 10px;
+}
+
+.login-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #218838;
+}
+
+.options-container {
+  margin-bottom: 20px;
+}
+
+.quiz-options {
+  margin-bottom: 20px;
+}
+
+/* Center alignment for non-quiz content */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  text-align: left;
+  padding-left: 20px; /* Indent from the left */
+}
+
+/* Progress bar container styling */
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+/* Progress bar styling */
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #76c7c0;
+  transition: width 0.2s ease-in-out;
+}
+
+/* Question display styling */
+.question-display {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Options list styling */
+.options-list {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.quiz-options {
+  margin-left: 20px;
+}
+
+.quiz-options div {
+  display: block;  /* Ensure that divs inside quiz-options are block elements */
+  margin-bottom: 5px;
+}
+
+.quiz-options input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Ensuring each label is displayed as a block element */
+.option-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quiz-options input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.quiz-options input[type="radio"] + span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Navigation Buttons Styling */
+.nav-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 20px; /* Adjust the gap between buttons as needed */
+  margin-top: 20px; /* Provides spacing above the button row */
+}
+
+.admin-home-container {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
 }
